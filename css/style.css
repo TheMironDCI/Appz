@@ -302,6 +302,11 @@ header .navbar .menu .btn:hover {
 #fourth {
   padding: 50px 0;
 }
+@media (max-width: 768px) {
+  #fourth img {
+    width: 280px;
+  }
+}
 #fourth .fourthTitle h1 {
   font-weight: 700;
   text-transform: capitalize;

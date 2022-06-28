@@ -345,6 +345,11 @@ header {
 /* Fourth section */
 #fourth {
     padding: $paddingForSection;
+    img {
+        @include mobile {
+            width: 280px;
+        }
+    }
     .fourthTitle {
         h1 {
             font-weight: 700;
