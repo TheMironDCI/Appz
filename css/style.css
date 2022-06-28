@@ -37,6 +37,7 @@ header .navbar {
 }
 header .navbar .logo {
   width: 200px;
+  cursor: pointer;
 }
 header .navbar .menu {
   width: 80%;
@@ -369,6 +370,7 @@ header .navbar .menu .btn:hover {
   align-items: center;
   border-radius: 30px;
   color: white;
+  cursor: pointer;
 }
 #sixth .iconSix-1 {
   background-color: #3474FF;
@@ -400,6 +402,7 @@ header .navbar .menu .btn:hover {
 #eighth .eighthBox-btn {
   display: flex;
   justify-content: center;
+  transition-duration: 0.3s;
 }
 @media (max-width: 768px) {
   #eighth .eighthBox-btn {
@@ -410,6 +413,12 @@ header .navbar .menu .btn:hover {
   background-color: #43E078;
   padding: 10px 30px;
   color: white;
+  transition-duration: 0.5s;
+}
+#eighth .eighthBox-btn button:hover {
+  background-color: #3474FF;
+  transform: scale(1.1);
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 /* Nine section */
@@ -423,8 +432,10 @@ header .navbar .menu .btn:hover {
   width: 40px;
   height: 40px;
   margin: 0 6px;
-  background-color: #42D897;
+  border-radius: 10px;
+  background-color: #43E078;
   color: white;
+  cursor: pointer;
 }
 #nineth .ontortinchi_icon .ontort_iconcha i {
   font-size: 26px;

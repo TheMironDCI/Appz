@@ -55,6 +55,7 @@ header {
 
         .logo {
             width: 200px;
+            cursor: pointer;
         }
 
         .menu {
@@ -418,6 +419,7 @@ header {
         align-items: center;
         border-radius: 30px;
         color: white;
+        cursor: pointer;
     }
     .iconSix-1 {
         background-color: #3474FF;
@@ -453,6 +455,8 @@ header {
     .eighthBox-btn {
         display: flex;
         justify-content: center;
+        transition-duration: .3s;
+
         @include mobile {
             margin-top: 20px;
         }
@@ -460,6 +464,12 @@ header {
             background-color: #43E078;
             padding: 10px 30px;
             color: white;
+            transition-duration: .5s;
+            &:hover {
+                background-color: $sectionFirst_firstColor;
+                transform: scale(1.1);
+                box-shadow: $shadow2;
+            }
         }
     }
 }
@@ -474,8 +484,10 @@ header {
             width: 40px;
             height: 40px;
             margin: 0 6px;
-            background-color:#42D897;
+            border-radius: 10px;
+            background-color: $sectionFirst_secondColor;
             color: white;
+            cursor: pointer;
             
             i{
                 font-size: 26px;
